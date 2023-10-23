@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+ul, ol {
+    list-style-type: none;
+}
+html, body {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wrapper {
+    margin: 110px 0 0 0;
+}
+.main {
+    display: grid;
+    grid-template-areas: 
+    "h h"
+    "a c";
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 200px 1fr;
+    gap: 10px;
+}
+header {
+    grid-area: h;
+    height: 150px;
+}
+aside {
+    grid-area: a;
+}
+.main__content {
+    grid-area: c;
+    background: #613333;
+}

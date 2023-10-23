@@ -1,0 +1,18 @@
+.aside {
+    padding: 5px;
+    background: #2c62a0;
+    display: flex;
+    align-items: center;
+}
+.aside__body {
+    margin: 0 0 0 10px;
+}
+.aside__link {
+    margin: 0 0 10px 0;
+}
+.aside__link a {
+    color: rgb(91, 214, 214);
+}
+.aside__link a.active {
+    color: #ebe842;
+}

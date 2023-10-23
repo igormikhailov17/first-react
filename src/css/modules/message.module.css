@@ -1,0 +1,26 @@
+.message {
+    padding: 10px;
+    height: 200px;
+    overflow: auto;
+}
+.message__body {
+    display: flex;
+}
+.message__people {
+    margin: 0 0 0 10px;
+}
+.message__person{
+    font-size: 18px;
+    margin: 0 20px 10px 0;
+}
+.message__comment {  
+}
+.message__text {
+    font-size: 16px;
+    color: #dddddd;
+    margin: 0 0 10px 20px;
+    padding: 1px 0 0 0;
+}
+.message__text.active {
+    color: #ebe842;
+}

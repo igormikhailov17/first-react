@@ -1,0 +1,21 @@
+.post__title {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+.post__textarea {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background: #6af7cc;
+    padding: 15px 0 0 10px;
+    margin: 0 0 20px 0;
+    font-size: 14px;
+}
+.post__btn button {
+    background: #4bb41b;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #3e9616;    
+}
