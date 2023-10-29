@@ -4,8 +4,8 @@ import Header from "./components/header";
 import Message from "./components/message";
 import Search from "./components/search";
 import Aside from './components/aside';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Profile from "./components/profile/profile";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
 
